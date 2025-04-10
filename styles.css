@@ -1,7 +1,7 @@
 /* 
     ---------------------------------------------------------------
     Add your name to this file below:
-    NAME: 
+    NAME: Alex Rodriguez
     ---------------------------------------------------------------
 */
 
@@ -43,6 +43,8 @@ header{
 }
 
 h1, h2, h3{
+	text-align: center;
+	;
 	/* center align the text */
 	/* use a web font here (instructions on page) */
 	/* make the heading text all small caps style */
@@ -57,6 +59,7 @@ h2{
 h3{
 	margin: 0;
 	padding: 4px;
+	text-decoration: solid var(--mint) 4px;
 	/* add an underline like the one on the h2s to the h3s, but make it solid and mint color */
 }
 
@@ -72,6 +75,7 @@ nav ul{
 
 nav a{
 	/* make these display as block level elements */
+	display: block;
 	margin: 1rem auto;
 	padding: 1rem;
 	background-color: var(--tiffany);
